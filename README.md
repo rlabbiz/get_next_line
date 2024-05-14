@@ -34,7 +34,7 @@ int main() {
 
 The `get_next_line` function has the following prototype:
 ```c
-	char  *get_next_line(int fd);
+char  *get_next_line(int fd);
 ```
 -   `fd`: The file descriptor to read from.
 
@@ -48,7 +48,7 @@ To build the `get_next_line` function, you can compile it along with your other 
 
 Example using GCC:
 ```bash
-	gcc -Wall -Wextra -Werror -D BUFFER_SIZE=32 mandatory/get_next_line.c mandatory/get_next_line_utils.c your_program.c -o your_program	
+gcc -Wall -Wextra -Werror -D BUFFER_SIZE=32 mandatory/get_next_line.c mandatory/get_next_line_utils.c your_program.c -o your_program	
 ```
 Adjust `BUFFER_SIZE` as needed based on your requirements.
 ## Resources
