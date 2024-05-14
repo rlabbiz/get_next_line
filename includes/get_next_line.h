@@ -18,6 +18,10 @@
 # include <stdlib.h>
 # include <fcntl.h>
 
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 42
+# endif
+
 size_t	ft_strlen(const char *str);
 char	*ft_strdup(char *s1);
 char	*ft_strjoin(char *s1, char *s2);
